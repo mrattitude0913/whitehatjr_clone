@@ -1,0 +1,99 @@
+{% extends 'base.html' %}
+{% block title %}
+<title>Sign-up</title>
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+
+{% endblock %}
+
+
+{% block l %}
+
+<br>
+<br>
+<br>
+
+{% endblock %}
+{% block b %}
+<br>
+<br>
+    <div class="container">
+    <h3>Please Enroll for Getting Free Trial</h3><br>
+    <form method="post">
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="exampleInputEmail1">Student Name</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="First Name" name="fname">
+            &nbsp;
+            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Last Name" name="lname">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Parents Name</label>
+            <input type="text" class="form-control" id="exampleInputEmail1"  placeholder="Enter Parents Name" name="pname">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">DOB</label>
+            <input type="date" class="form-control" name="dob">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Gender</label>
+            <div class="form-control">
+                <input type="radio" value="male" name="gen"> Male 
+                &nbsp;
+                <input type="radio"  value="male" name="gen"> Female
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Username</label>
+            <input type="text" class="form-control"  placeholder="Enter username" name="username">
+        </div>
+
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter Email Address" name="email">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="password">
+        </div>
+        <div class="form-group">
+            <label>UserType</label>
+            <div >
+            <select name="usertype" class="form-control">
+                <option>Select</option>
+                <option value="student">Student</option>
+                <option value="teacher" disabled=true>Teacher</option>
+            </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Mobile Number</label>
+            <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter Moblie Number" name="mobileno">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Do You Have Laptop ?</label>
+            <div class="form-control">
+                <input type="radio" value="yes" name="lap"> Yes 
+                &nbsp;
+                <input type="radio"  value="no" name="lap"> No
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Address</label>
+            <input type="text-area" class="form-control" id="exampleInputPassword1" placeholder="Enter Address" name="address">
+        </div>
+        
+        <input type="submit" name="submit" value="Sign-up" class="btn btn-outline-danger">
+    </form>
+    </div>
+    <br>
+    <br>
+{% endblock %}
+

@@ -1,0 +1,707 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<!-- Basic -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Site Metas -->
+    <title>Perfect - Responsive HTML5 Template</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="#" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'about/css/bootstrap.min.css' %}" />
+    <!-- Pogo Slider CSS -->
+    <link rel="stylesheet" href="{% static 'about/css/pogo-slider.min.css' %}" />
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="{% static 'about/css/style.css' %}" />
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="{% static 'about/css/responsive.css' %}" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{% static 'about/css/custom.css' %}" />
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="inner_page" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
+
+    <!-- LOADER -->
+    <div id="preloader">
+        <div class="loader">
+            <img src="{% static 'about/images/loader.gif' %}" alt="#" />
+        </div>
+    </div>
+	<!-- end loader -->
+	
+	
+    <!-- END LOADER -->
+
+    <!-- Start header -->
+    <header class="top-header">
+        <nav class="navbar header-nav navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="{% static 'about/images/logo.png' %}" alt="image"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                 <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
+                    <ul class="navbar-nav">
+                        <li><a class="nav-link active" href="/">Home</a></li>
+                        <li><a class="nav-link" href="/about">About</a></li>
+                        <li><a class="nav-link" href="/course">Courses</a></li>
+                        
+                        <li><a class="nav-link" href="/contact">Contact us</a></li>
+                        <li><a class="nav-link" href="/login">login</a></li>
+                    </ul>
+                </div>
+                <div class="search-box">
+                    <input type="text" class="search-txt" placeholder="Search">
+                    <a class="search-btn">
+                        <img src="{% static 'about/images/search_icon.png' %}" alt="#" />
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End header -->
+
+	<!-- section -->
+	
+	<section class="inner_banner">
+	  <div class="container">
+	      <div class="row">
+		      <div class="col-12">
+			     <div class="full">
+				     <h3>About us</h3>
+				 </div>
+			  </div>
+		  </div>
+	  </div>
+	</section>
+	
+	<!-- end section -->
+   
+	<!-- section -->
+    <div class="section margin-top_50">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 layout_padding_2">
+                    <div class="full">
+                        <div class="heading_main text_align_left">
+						   <h2><span>Welcome To</span> Education</h2>
+                        </div>
+						<div class="full">
+						  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+						  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+						  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+						</div>
+						<div class="full">
+						   <a class="hvr-radial-out button-theme" href="#">About more</a>
+						</div>
+                    </div>
+                </div>
+				<div class="col-md-6">
+                    <div class="full">
+                        <img src="{% static 'about/images/img2.png" alt="#" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<!-- end section -->
+	
+	<div class="curriculum__tabs-content">
+
+            <div class="full-body-container">
+  <section id="ourTeacher" class="our-teacher-section is-visible-viewport">
+
+        <h2 class="section-heading">Our Expert Coding Educators</h2>
+        <div class="ourteacher-steps-section">
+            <div class="teacher-steps-image">
+                <div>
+                    <img src="https://cdnwhjr.s3.ap-south-1.amazonaws.com/website/desktop/our-curriculum/teacher-step.png" alt="teacher-step" class="card-image">
+                </div>
+            </div>
+            <div class="teacher-steps-content">
+                <h4>Handpicked via Whitehat Jr’s Industry Leading 5-Step Teacher Selection Process</h4>
+                <p class="font18 color-5A7184">Whitehat Jr follows a rigorous 5-Step Selection Process for confirming
+                    teacher candidates so your kids are taught by the Top 0.01% of Early Kids Coding Experts.</p>
+                <a class="book_trial nav-item" href="">
+    <button class="btn btn-primary book_trial_btn color-fff">
+        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" viewBox="0 0 17 18" fill="none">
+            
+        </svg>
+        <span>Book a FREE Trial</span>
+    </button>
+</a>
+
+        
+        </div>
+    </div>
+</section>
+<div class="container">
+    	<div class="row">
+
+<section id="curriculumCreator" class="curriculum-creater-section is-visible-viewport">
+    
+        <h4 class="text-center sub-section-heading">Meet our IIT and IB-trained Curriculum Creators</h4>
+        <div class="curriculum-creators">
+            <div class="creator">
+                <div class="creator-profile">
+                    <div class="hideoverflow-image curriculum-image">
+                        <img src="https://cdnwhjr.s3.ap-south-1.amazonaws.com/website/desktop/our-curriculum/profile/farida.png" alt="curriculumCreator" class="card-image">
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                <div class="creator-details">
+                    <span class="font18 color-183B56 creator-name">Dr. Farida Khan</span>
+                    <span class="font18 color-5A7184 creator-achivement">PHD IITB, Gold Medalist </span>
+                </div></div>
+            </div>
+
+            <div class="creator">
+
+                <div class="creator-profile">
+                    <div class="hideoverflow-image curriculum-image">
+                        <img src="https://cdnwhjr.s3.ap-south-1.amazonaws.com/website/desktop/our-curriculum/profile/rajeev.png" alt="curriculumCreator" class="card-image">
+                    </div>
+                </div>
+                 <div class="col-lg-3">
+                <div class="creator-details">
+                    <span class="font18 color-183B56 creator-name">Rajeev Jha</span>
+                    <span class="font18 color-5A7184 creator-achivement">Advanced Game Designer, TFI Fellow.</span>
+                </div>
+            </div>
+            <div class="creator">
+                <div class="creator-profile">
+                    <div class="hideoverflow-image curriculum-image">
+                        <img src="https://cdnwhjr.s3.ap-south-1.amazonaws.com/website/desktop/our-curriculum/profile/abhijit.png" alt="curriculumCreator" class="card-image">
+                    </div>
+                </div>
+                 <div class="col-lg-3">
+                <div class="creator-details">
+                    <span class="font18 color-183B56 creator-name">Abhijeet Gawande</span>
+                    <span class="font18 color-5A7184 creator-achivement">IB Educational Technologist, AI Expert</span>
+                </div>
+            </div>
+            <div class="creator">
+                <div class="creator-profile">
+                    <div class="hideoverflow-image curriculum-image">
+                        <img src="https://cdnwhjr.s3.ap-south-1.amazonaws.com/website/desktop/our-curriculum/profile/gauri.png" alt="curriculumCreator" class="card-image">
+                    </div>
+                </div>
+                 <div class="col-lg-3">
+                <div class="creator-details">
+                    <span class="font18 color-183B56 creator-name">Gauri Parulkar</span>
+                    <span class="font18 color-5A7184 creator-achivement">Computer Scientist, Entrepreneur, Science
+                        Quotient</span>
+                </div>
+            </div>
+            <div class="creator">
+                <div class="creator-profile">
+                    <div class="hideoverflow-image curriculum-image">
+                        <img src="https://cdnwhjr.s3.ap-south-1.amazonaws.com/website/desktop/our-curriculum/profile/rahul.png" alt="curriculumCreator" class="card-image">
+                    </div>
+                </div>
+                 <div class="col-lg-3">
+                <div class="creator-details">
+                    <span class="font18 color-183B56 creator-name">Rahul Singh</span>
+                    <span class="font18 color-5A7184 creator-achivement">Data Scientist, Deep
+                        Learning &amp; NLP expert.</span>
+                </div>
+            </div>
+        </div>
+    </div></div>
+</section>
+
+<section id="mobileAppSection" class="mobile-app-section">
+    <div class="container">
+        <h2 class="section-heading">Join the WhiteHat Jr Revolution</h2>
+        <div class="mobile-section-wrapper">
+            <div class="app-section">
+                <div class="app-learn-content">
+                    <h4>Book a FREE Trial Class on the go</h4>
+
+                    <p class="font18 color-5A7184">Book your free class from anywhere with the Whitehat Jr class booking app</p>
+
+                    <div class="playstore-icons">
+                        <a href="https://play.google.com/store/apps/details?id=com.whitehatjr" target="_blank"><img src="desktop-home/playStore1x.png" srcset="desktop-home/playStore1x.png 1x, desktop-home/playStore2x.png 2x" alt="" class="playstore"></a>
+                        <a href="https://apps.apple.com/in/app/whitehat-jr-online-coding/id1524626185" target="_blank"><img src="desktop-home/appStore1x.png" srcset="desktop-home/appStore1x.png 1x, desktop-home/appStore2x.png 2x" alt="" class="appstore"></a>
+                    </div>
+                </div>
+                <div class="app-mobile-device">
+                    <img src="https://cdnwhjr.s3.ap-south-1.amazonaws.com/website/desktop/mobile-device-one.png" srcset="https://cdnwhjr.s3.ap-south-1.amazonaws.com/website/desktop/mobile-device-one.png 1x, desktop-home/mobile-device-two.png 2x" alt="" class="img-responsive">
+                </div>
+                <span class="ellipse-img">
+                    <img src="https://cdnwhjr.s3.ap-south-1.amazonaws.com/website/desktop/ellipse.png" alt="mobile-device" class="img-responsive">
+                </span>
+            </div>
+            <div class="registartion-counts" id="teacher-info-section">
+                <div class="reigstered-teachers">
+                    <div class="registered-teachers-icon">
+                        <div class="hideoverflow-image">
+                            <img src="https://cdnwhjr.s3.ap-south-1.amazonaws.com/website/desktop/our-curriculum/registration-process/step-1.svg" alt="" class="card-image">
+                        </div>
+                    </div>
+                    <div class="registered-count">
+                        <h3 id="registeredTeacher">
+                            <div class="counter" data-target="7000">0</div>
+                        </h3>
+                        <p class="font18">No. of Registered Teachers</p>
+                    </div>
+                </div>
+                <div class="reigstered-teachers">
+                    <div class="registered-teachers-icon">
+                        <div class="hideoverflow-image">
+                            <img src="https://cdnwhjr.s3.ap-south-1.amazonaws.com/website/desktop/our-curriculum/registration-process/step-2.svg" alt="" class="card-image">
+                        </div>
+                    </div>
+                    <div class="registered-count">
+                        <h3 id="registeredStudent">
+                            <div class="counter" data-target="2500000">0</div>
+                        </h3>
+                        <p class="font18">No. of Registered Students</p>
+                    </div>
+                </div>
+                <div class="reigstered-teachers">
+                    <div class="registered-teachers-icon">
+                        <div class="hideoverflow-image">
+                            <img src="https://cdnwhjr.s3.ap-south-1.amazonaws.com/website/desktop/our-curriculum/registration-process/step-3.svg" alt="" class="card-image">
+                        </div>
+                    </div>
+                    <div class="registered-count">
+                        <h3 id="classTaken">
+                            <div class="counter" data-target="1630000">0</div>
+                        </h3>
+                        <p class="font18">No. of Classes Taken</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  <section id="home-footer">
+    <div class="footer-feature-block">
+        <div class="footer-feature-container">
+            <h2 class="feature-text text-center">Whitehat Jr has been Featured In</h2>
+            <div class="feature">
+                <a href="https://www.business-standard.com/article/pti-stories/whitehat-jr-aims-to-teach-indian-school-goers-coding-119041601283_1.html" target="_blank"><div class="icon business-score-board"></div></a>
+                <a href="https://www.cnbctv18.com/business/ed-tech-start-up-whitehat-jr-to-rope-in-2000-online-teachers-on-its-learning-platform-6136181.htm" target="_blank"><div class="icon cnbc-tv"></div></a>
+                <a href="https://yourstory.com/2020/06/edtech-startup-whitehat-jr-kids-ai-coding-skills" target="_blank"><div class="icon your-story"></div></a>
+                <a href="https://www.financialexpress.com/industry/technology/white-hat-jr-making-app-creators-out-of-kids/1728333/" target="_blank"><div class="icon financial-express"></div></a>
+            </div>
+        </div>
+
+        <div class="footer-banner">
+            <div class="footer-banner-block container position-relative">
+                <div class="img_container">
+                    <img src="/images/karanProfile.png" alt="WhiteHat Jr CEO">
+                </div>
+                <div class="pad-0-5 ipad-margin" style="width: 100%;">
+                    <h4 class="text-bold">
+                        WhiteHat Jr is the top coding learning platform for the young minds.
+                    </h4>
+                    <div style="margin-top: 5px;">
+                        <b class="text-bold">- Karan Bajaj</b>
+                        <span>Founder, Whitehat Jr</span>
+                    </div>
+                </div>
+                <div class="pad-0-5">
+                    <a class="book_trial nav-item" href="">
+    <button class="btn btn-primary book_trial_btn color-fff">
+        
+        <span>Book a FREE Trial</span>
+    </button>
+</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="whitehat-logo">
+            <img src="desktop-home/footer-logo1x.png" srcset="desktop-home/footer-logo1x.png 1x, desktop-home/footer-logo2x.png 2x" alt="">
+        </div>
+        <div class="footer-container">
+            <div class="footer-block">
+                <div class="footer-first-separate">
+
+                    <p class="footer-desc">
+                        Do you want your kid to create the world’s next big tech platform? Whitehat Jr's mission is to
+                        empower
+                        a
+                        whole generation to become creators versus consumers of technology.We teach fundamentals of
+                        coding--logic, structure, sequence and algorithmic thinking to enable kids to generate creative
+                        outcomes
+                        eg websites, animations and apps.
+                    </p>
+
+                    <ul class="social-icons">
+                        <li class="icons-boxes">
+                            <a href="https://www.facebook.com/whitehatjr/" target="_blank" class="margin-auto">
+                                <div class="icon facebook-icon"></div>
+                            </a>
+                        </li>
+
+                        <li class="icons-boxes">
+                            <a href="https://twitter.com/whitehatjunior" target="_blank" class="margin-auto">
+                                <div class="icon twitter-icon"></div>
+                            </a>
+                        </li>
+
+                        <li class="icons-boxes">
+                            <a href="https://www.youtube.com/channel/UCB8Dp0OcTLX9vxXwh4TCIzA" target="_blank" class="margin-auto">
+                                <div class="icon youtube-icon"></div>
+                            </a>
+                        </li>
+                        <li class="icons-boxes">
+                            <a href="https://in.linkedin.com/company/whitehatjr" target="_blank" class="margin-auto">
+                                <div class="icon linked-icon"></div>
+                            </a>
+                        </li>
+
+                        <li class="icons-boxes">
+                            <a href="https://www.glassdoor.co.in/Overview/Working-at-Whitehat-Jr-EI_IE2325925.11,22.htm" target="_blank" class="margin-auto">
+                                <div class="icon instagram-icon"></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-another-separate">
+                    <h4 class="color-default text-bold">
+                        Important Links
+                    </h4>
+                    
+                    <div>
+                        <a class="link" href="https://code.whitehatjr.com/t/login" target="_blank">Teacher Login</a>
+                    </div>
+                    
+                    <div>
+                        <a class="link" href="https://code.whitehatjr.com/s/login" target="_blank">Student Login</a>
+                    </div>
+                    
+                    <div>
+                        <a class="link" href="https://blog.whitehatjr.com/" target="_blank">Blog</a>
+                    </div>
+                    
+                    <div>
+                        <a class="link" href="/register" target="_blank">Register</a>
+                    </div>
+                    
+                </div>
+                <div class="footer-another-separate">
+                    <h4 class="color-default text-bold">
+                        More
+                    </h4>
+                    
+                    <div>
+                        <a class="link" href="https://code.whitehatjr.com/terms-conditions" target="_blank">Terms &amp; Conditions</a>
+                    </div>
+                    
+                    <div>
+                        <a class="link" href="https://code.whitehatjr.com/privacy-policy" target="_blank">Privacy Policy</a>
+                    </div>
+                    
+                    <div>
+                        <a class="link" href="https://www.whitehatjr.com/fulfillment-refund-policy" target="_blank">Fulfillment Policy</a>
+                    </div>
+                    
+                    <div>
+                        <a class="link" href="https://www.whitehatjr.com/help-desk" target="_blank">Help Desk</a>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="about-container">
+                
+                <div class="about-row">
+                    <h4 class="about-title">About WhiteHat Jr</h4>
+                    <p class="about-desc">Today, in the computer age, less than 1% of schools teach coding in early childhood. Resulting in a major gap in the requirements of the new world and our children's skills. 
+ WhiteHat Jr introduces and prepares your kid from 6-14 years for this new coding world. They learn fundamentals of coding--logic, structure, sequence and algorithmic thinking--to generate creative outcomes like animations and apps.
+ All classes are taught Live 1:1 Online in the comfort of your home by Top 99.9th percentile of certified teachers and subject matter expert.</p>
+                    
+                </div>
+                
+                <div class="about-row">
+                    <h4 class="about-title">Coding For Kids</h4>
+                    <p class="about-desc">Whether you are a student interested in the IT careers that you could explore with a coding qualification or just fascinated by the world of tech and coding courses, WhiteHat Jr. offers a wide range of online coding courses that make coding accessible to kids and young teenagers. We've put together a simple guide to answer some of the most commonly asked questions from parents and prospective students to help you understand the basics of what our kids programming courses cover, whether they are right for your kids and how best to navigate them.</p>
+                    
+                </div>
+                
+                <div class="about-row">
+                    <h4 class="about-title">Curious about what is involved in courses for coding for kids?</h4>
+                    <p class="about-desc">We have developed kids programming courses that allow kids, teens, and young adults to learn how to code at all ages with proper coding classes and in an environment that works for them – Online. The courses offered by WhiteHat Jr. are designed to teach kids to code with core programming skills, and then improve the proficiency of the kids coding languages. We require students to learn online coding in future-oriented and selected languages for their suitability to a teaching sense. Our facilitators align digital literacy into coding courses, as required by the existing skills of the learners. Since our curriculum is developed by industry experts and the most important activity of teaching coding is done by top 99.9th percentile of certified teachers, learners get state-of-the-art tech education and unfair advantage when joining the industry.</p>
+                    
+                </div>
+                
+                <div class="about-row">
+                    <h4 class="about-title">Are coding classes for kids suitable?</h4>
+                    <p class="about-desc">When you're a parent exploring the possibilities that coding classes for kids can bring, you 're probably wondering whether coding courses will suit your child.
+ The benefits of learning to code courses extend far beyond future job opportunities. WhiteHat Jr. teaches coding for kids in programs designed to stimulate creativity, problem-solving skills, and academic performance overall. Over the longer term, online coding courses are a great way to train learners for an increasingly tech-oriented tertiary setting.</p>
+                    
+                </div>
+                
+                <div class="about-row">
+                    <h4 class="about-title">What will you learn in a coding course for kids?</h4>
+                    <p class="about-desc">WhiteHat Jr.'s coding courses are oriented towards coding and programming. <br> 
+ You will learn:</p>
+                    
+                    <ul class="pad-0-5">
+                        
+                        <li class="about-desc">The essentials of coding: Logic, Structure, Sequence</li>
+                        
+                        <li class="about-desc">To create Websites, Animations &amp; Apps</li>
+                        
+                        <li class="about-desc">How to manipulate data using the programming languages</li>
+                        
+                        <li class="about-desc">To think of being a problem solver</li>
+                        
+                        <li class="about-desc">Understand how technologies converse with each other</li>
+                        
+                    </ul>
+                    
+                </div>
+                
+                <div class="about-row">
+                    <h4 class="about-title">Start to learn coding with us!</h4>
+                    <p class="about-desc">If you are a motivated parent and passionate about technology and where it can lead you to, then Join now. If you or your child would like to find out more about the opportunities provided by our coding programs, explore the kids programming courses offered by WhiteHat Jr. and consider enrolling for a free trial. Remember, no coding experience beforehand is required.</p>
+                    
+                </div>
+                
+            </div>
+            <div class="copy-right-container">
+                <div class="footer-text">Copyright WhiteHat Education Technology Pvt ltd © 2020. All Rights Reserved
+                </div>
+                <div class="footer-text">
+                    Made with
+                    <div class="heart"></div>
+                    in India.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="scroll-top" id="scroll_top_button" style="opacity: 1;">
+    <div class="scroll-circle" onclick="return document.body.scrollTo(0,0)">
+        <img src="{% static 'about/images/arrow-up.png' %}" alt="Up" width="12">
+    </div>
+    <div>Scroll to Top</div>
+</div>
+</div></div></section>
+    <!-- Start Footer -->
+    <footer class="footer-box">
+        <div class="container">
+		
+		   <div class="row">
+		   
+		      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+			     <div class="footer_blog">
+				    <div class="full margin-bottom_30">
+					   <img src="{% static 'about/images/footer_logo.png' %}" alt="#" />
+					 </div>
+					 <div class="full white_fonts">
+					    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
+					 </div>
+				 </div>
+			  </div>
+			  
+			  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+			       <div class="footer_blog footer_menu white_fonts">
+						    <h3>Quick links</h3>
+						    <ul> 
+							  <li><a href="#">> Join Us</a></li>
+							  <li><a href="#">> Maintenance</a></li>
+							  <li><a href="#">> Language Packs</a></li>
+							  <li><a href="#">> LearnPress</a></li>
+							  <li><a href="#">> Release Status</a></li>
+							</ul>
+						 </div>
+				 </div>
+				 
+				 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+				 <div class="footer_blog full white_fonts">
+						     <h3>Newsletter</h3>
+							 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+							 <div class="newsletter_form">
+							    <form action="index.html">
+								   <input type="email" placeholder="Your Email" name="#" required />
+								   <button>Submit</button>
+								</form>
+							 </div>
+						 </div>
+					</div>	 
+			  
+			  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+				 <div class="footer_blog full white_fonts">
+						     <h3>Contact us</h3>
+							 <ul class="full">
+							   <li><img src="images/i5.png"><span>London 145<br>United Kingdom</span></li>
+							   <li><img src="images/i6.png"><span>demo@gmail.com</span></li>
+							   <li><img src="images/i7.png"><span>+12586954775</span></li>
+							 </ul>
+						 </div>
+					</div>	 
+			  
+		   </div>
+		
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <div class="footer_bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="crp">© Copyrights 2019 design by html.design</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" id="scroll-to-top" class="hvr-radial-out"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="{% static 'about/js/jquery.min.js' %}"></script>
+	<script src="{% static 'about/js/popper.min.js' %}"></script>
+    <script src="{% static 'about/js/bootstrap.min.js' %}"></script>
+    <!-- ALL PLUGINS -->
+    <script src="{% static 'about/js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'about/js/jquery.pogo-slider.min.js' %}"></script>
+    <script src="{% static 'about/js/slider-index.js' %}"></script>
+    <script src="{% static 'about/js/smoothscroll.js' %}"></script>
+    <script src="{% static 'about/js/form-validator.min.js' %}"></script>
+    <script src="{% static 'about/js/contact-form-script.js' %}"></script>
+    <script src="{% static 'about/js/isotope.min.js' %}"></script>
+    <script src="{% static 'about/js/images-loded.min.js' %}"></script>
+    <script src="{% static 'about/js/custom.js' %} "></script>
+	<script>
+	/* counter js */
+
+(function ($) {
+	$.fn.countTo = function (options) {
+		options = options || {};
+		
+		return $(this).each(function () {
+			// set options for current element
+			var settings = $.extend({}, $.fn.countTo.defaults, {
+				from:            $(this).data('from'),
+				to:              $(this).data('to'),
+				speed:           $(this).data('speed'),
+				refreshInterval: $(this).data('refresh-interval'),
+				decimals:        $(this).data('decimals')
+			}, options);
+			
+			// how many times to update the value, and how much to increment the value on each update
+			var loops = Math.ceil(settings.speed / settings.refreshInterval),
+				increment = (settings.to - settings.from) / loops;
+			
+			// references & variables that will change with each update
+			var self = this,
+				$self = $(this),
+				loopCount = 0,
+				value = settings.from,
+				data = $self.data('countTo') || {};
+			
+			$self.data('countTo', data);
+			
+			// if an existing interval can be found, clear it first
+			if (data.interval) {
+				clearInterval(data.interval);
+			}
+			data.interval = setInterval(updateTimer, settings.refreshInterval);
+			
+			// initialize the element with the starting value
+			render(value);
+			
+			function updateTimer() {
+				value += increment;
+				loopCount++;
+				
+				render(value);
+				
+				if (typeof(settings.onUpdate) == 'function') {
+					settings.onUpdate.call(self, value);
+				}
+				
+				if (loopCount >= loops) {
+					// remove the interval
+					$self.removeData('countTo');
+					clearInterval(data.interval);
+					value = settings.to;
+					
+					if (typeof(settings.onComplete) == 'function') {
+						settings.onComplete.call(self, value);
+					}
+				}
+			}
+			
+			function render(value) {
+				var formattedValue = settings.formatter.call(self, value, settings);
+				$self.html(formattedValue);
+			}
+		});
+	};
+	
+	$.fn.countTo.defaults = {
+		from: 0,               // the number the element should start at
+		to: 0,                 // the number the element should end at
+		speed: 1000,           // how long it should take to count between the target numbers
+		refreshInterval: 100,  // how often the element should be updated
+		decimals: 0,           // the number of decimal places to show
+		formatter: formatter,  // handler for formatting the value before rendering
+		onUpdate: null,        // callback method for every time the element is updated
+		onComplete: null       // callback method for when the element finishes updating
+	};
+	
+	function formatter(value, settings) {
+		return value.toFixed(settings.decimals);
+	}
+}(jQuery));
+
+jQuery(function ($) {
+  // custom formatting example
+  $('.count-number').data('countToOptions', {
+	formatter: function (value, options) {
+	  return value.toFixed(options.decimals).replace(/\B(?=(?:\d{3})+(?!\d))/g, ',');
+	}
+  });
+  
+  // start all the timers
+  $('.timer').each(count);  
+  
+  function count(options) {
+	var $this = $(this);
+	options = $.extend({}, options || {}, $this.data('countToOptions') || {});
+	$this.countTo(options);
+  }
+});
+	</script>
+
+
+</body>
+
+</html>

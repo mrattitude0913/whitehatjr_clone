@@ -1,0 +1,282 @@
+#box_wrapper{
+      
+    margin: 30px;
+    color: skyblue;
+        }
+.box_pack{
+          float: left;
+          margin-left: 20px;
+          background:white;
+          
+          border-radius: 30px 15px;
+
+          padding-left: 20px;
+         
+          text-align: justify;
+          padding:15px;
+          box-shadow: 15px 14px 16px;
+    background-color:azure;
+
+    }
+    .box_pack1{
+        background-color:#fff4e8;
+    }
+    .packing{
+        background-color:rgb(114, 9, 9);
+        text-emphasis-color: orange;
+
+    }
+    p{
+        color:orange;
+
+    }
+    a{
+        color: orange;
+    }
+    button{
+        box-decoration-break:none;
+    }
+
+    .curriculum__tabs-container {
+    background: #fff;
+    box-shadow: 0 17px 39px rgba(0,0,0,.05);
+    display: flex;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+* {
+    letter-spacing: .0125rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 0;
+    margin: 0;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    font-weight: 400;
+    outline: none;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+@media (min-width: 992px)
+html {
+    font-size: 15px;
+}
+@media (min-width: 768px)
+html {
+    font-size: 12px;
+}
+.curriculum__tabs-container {
+    background: #fff;
+    box-shadow: 0 17px 39px rgba(0,0,0,.05);
+    display: flex;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+* {
+    letter-spacing: .0125rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 0;
+    margin: 0;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    font-weight: 400;
+    outline: none;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    color: #191919;
+}
+::placeholder, body, input, select {
+    font-family: FuturaPT,sans-serif;
+}
+body, html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+.curriculum__bottom {
+    font-size: 1.125rem;
+    color: #5a7184;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+* {
+    letter-spacing: .0125rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 0;
+    margin: 0;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    font-weight: 400;
+    outline: none;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    color: #191919;
+}
+::placeholder, body, input, select {
+    font-family: FuturaPT,sans-serif;
+}
+body, html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+element.style {
+}
+a, a:active, a:focus {
+    color: #fe8d1b;
+    text-decoration: none;
+}
+* {
+    letter-spacing: .0125rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 0;
+    margin: 0;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    font-weight: 400;
+    outline: none;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.curriculum__bottom {
+    font-size: 1.125rem;
+    color: #5a7184;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+body {
+    color: #191919;
+}
+::placeholder, body, input, select {
+    font-family: FuturaPT,sans-serif;
+}
+body, html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    overflow-x: hidden;
+    height: 100vh;
+}
+@media (min-width: 992px)
+html {
+    font-size: 15px;
+}
+@media (min-width: 768px)
+html {
+    font-size: 12px;
+}
+
+element.style {
+}
+a, a:active, a:focus {
+    color: #fe8d1b;
+    text-decoration: none;
+}
+* {
+    letter-spacing: .0125rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 0;
+    margin: 0;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    font-weight: 400;
+    outline: none;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.curriculum__bottom {
+    font-size: 1.125rem;
+    color: #5a7184;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+body {
+    color: #191919;
+}
+::placeholder, body, input, select {
+    font-family: FuturaPT,sans-serif;
+}
+body, html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    overflow-x: hidden;
+    height: 100vh;
+}
+@media (min-width: 992px)
+html {
+    font-size: 15px;
+}
+@media (min-width: 768px)
+html {
+    font-size: 12px;
+}
+
+* {
+    letter-spacing: .0125rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 0;
+    margin: 0;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    font-weight: 400;
+    outline: none;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    color: #191919;
+}
+::placeholder, body, input, select {
+    font-family: FuturaPT,sans-serif;
+}
+body, html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    overflow-x: hidden;
+    height: 100vh;
+}
+  

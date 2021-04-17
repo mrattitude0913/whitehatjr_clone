@@ -1,0 +1,43 @@
+#box_wrapper{
+      
+    margin: 30px;
+    color: skyblue;
+        }
+.box_pack{
+          float: left;
+          margin-left: 20px;
+          background:white;
+          
+          border-radius: 30px 15px;
+
+          padding-left: 20px;
+         
+          text-align: justify;
+          padding:15px;
+          box-shadow: 15px 14px 16px;
+    background-color:azure;
+
+    }
+    .box_pack1{
+        background-color:#fff4e8;
+    }
+    .packing{
+        background-color:rgb(114, 9, 9);
+        text-emphasis-color: orange;
+
+    }
+    p{
+        color:orange;
+
+    }
+    a{
+        color: orange;
+    }
+    button{
+        box-decoration-break:none;
+    }
+
+    .curriculum__tabs-content .plan_cont.hide {
+        display: none;
+    }
+  
